@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+E:/TRDB_DC2_v2.1_YuanMa/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD {E:/TRDB_DC2_v2.1_YuanMa/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv}
+vlog -sv -work work +incdir+E:/TRDB_DC2_v2.1_YuanMa/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD {E:/TRDB_DC2_v2.1_YuanMa/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv}
+vlog -sv -work work +incdir+E:/TRDB_DC2_v2.1_YuanMa/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD {E:/TRDB_DC2_v2.1_YuanMa/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv}
+

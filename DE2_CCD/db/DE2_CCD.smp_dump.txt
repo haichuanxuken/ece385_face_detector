@@ -1,0 +1,52 @@
+
+State Machine - |ImageProcess|MaskLayer:myMaskLayer|state
+Name state.storeFifthConf state.startFifthMask state.storeFourthConf state.startFourthMask state.storeThirdConf state.startThirdMask state.storeSecondConf state.startSecondMask state.storeFirstConf state.doneState state.startFirstMask state.waitState 
+state.waitState 0 0 0 0 0 0 0 0 0 0 0 0 
+state.startFirstMask 0 0 0 0 0 0 0 0 0 0 1 1 
+state.doneState 0 0 0 0 0 0 0 0 0 1 0 1 
+state.storeFirstConf 0 0 0 0 0 0 0 0 1 0 0 1 
+state.startSecondMask 0 0 0 0 0 0 0 1 0 0 0 1 
+state.storeSecondConf 0 0 0 0 0 0 1 0 0 0 0 1 
+state.startThirdMask 0 0 0 0 0 1 0 0 0 0 0 1 
+state.storeThirdConf 0 0 0 0 1 0 0 0 0 0 0 1 
+state.startFourthMask 0 0 0 1 0 0 0 0 0 0 0 1 
+state.storeFourthConf 0 0 1 0 0 0 0 0 0 0 0 1 
+state.startFifthMask 0 1 0 0 0 0 0 0 0 0 0 1 
+state.storeFifthConf 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ImageProcess|MaskLayer:myMaskLayer|MaskOnePath:Mask5|state
+Name state.waitState state.doneState state.startAdd 
+state.waitState 0 0 0 
+state.startAdd 1 0 1 
+state.doneState 1 1 0 
+
+State Machine - |ImageProcess|MaskLayer:myMaskLayer|MaskOnePath:Mask4|state
+Name state.waitState state.doneState state.startAdd 
+state.waitState 0 0 0 
+state.startAdd 1 0 1 
+state.doneState 1 1 0 
+
+State Machine - |ImageProcess|MaskLayer:myMaskLayer|MaskOnePath:Mask3|state
+Name state.waitState state.doneState state.startAdd 
+state.waitState 0 0 0 
+state.startAdd 1 0 1 
+state.doneState 1 1 0 
+
+State Machine - |ImageProcess|MaskLayer:myMaskLayer|MaskOnePath:Mask2|state
+Name state.waitState state.doneState state.startAdd 
+state.waitState 0 0 0 
+state.startAdd 1 0 1 
+state.doneState 1 1 0 
+
+State Machine - |ImageProcess|MaskLayer:myMaskLayer|MaskOnePath:Mask1|state
+Name state.waitState state.doneState state.startAdd 
+state.waitState 0 0 0 
+state.startAdd 1 0 1 
+state.doneState 1 1 0 
+
+State Machine - |ImageProcess|ImageRead:myImageRead|state
+Name state.doneState state.readData state.readNothing state.waitState 
+state.waitState 0 0 0 0 
+state.readNothing 0 0 1 1 
+state.readData 0 1 0 1 
+state.doneState 1 0 0 1 

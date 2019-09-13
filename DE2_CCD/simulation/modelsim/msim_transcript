@@ -1,0 +1,240 @@
+# Reading D:/QuartusII/modelsim_ase/tcl/vsim/pref.tcl
+# do DE2_CCD_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/QuartusII/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/QuartusII/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD {C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:31:15 on Dec 12,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD" C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv 
+# -- Compiling module MaskOnePath
+# 
+# Top level modules:
+# 	MaskOnePath
+# End time: 18:31:16 on Dec 12,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD {C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:31:16 on Dec 12,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD" C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv 
+# -- Compiling module MaskLayer
+# 
+# Top level modules:
+# 	MaskLayer
+# End time: 18:31:16 on Dec 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD {C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ImageReg.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:31:16 on Dec 12,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD" C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ImageReg.sv 
+# -- Compiling module ImageReg
+# 
+# Top level modules:
+# 	ImageReg
+# End time: 18:31:16 on Dec 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD {C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ImageRead.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:31:16 on Dec 12,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD" C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ImageRead.sv 
+# -- Compiling module ImageRead
+# 
+# Top level modules:
+# 	ImageRead
+# End time: 18:31:16 on Dec 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD {C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:31:16 on Dec 12,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD" C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv 
+# -- Compiling module ConfidenceReg
+# 
+# Top level modules:
+# 	ConfidenceReg
+# End time: 18:31:16 on Dec 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD {C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ImageProcess.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:31:16 on Dec 12,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD" C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ImageProcess.sv 
+# -- Compiling module ImageProcess
+# 
+# Top level modules:
+# 	ImageProcess
+# End time: 18:31:16 on Dec 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD {C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/testbench2.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:31:16 on Dec 12,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD" C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/testbench2.sv 
+# -- Compiling module testbench2
+# 
+# Top level modules:
+# 	testbench2
+# End time: 18:31:16 on Dec 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench2
+# vsim -gui "+altera" -l msim_transcript -do "DE2_CCD_run_msim_rtl_verilog.do" 
+# Start time: 18:31:17 on Dec 12,2017
+# Loading sv_std.std
+# Loading work.testbench2
+# Loading work.ImageProcess
+# Loading work.ImageRead
+# Loading work.ImageReg
+# Loading work.MaskLayer
+# Loading work.MaskOnePath
+# Loading work.ConfidenceReg
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(55): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv(6).
+# 
+#         Region: /testbench2/test/myMaskLayer/Mask1
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(55): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv(7).
+# 
+#         Region: /testbench2/test/myMaskLayer/Mask1
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(56): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv(6).
+# 
+#         Region: /testbench2/test/myMaskLayer/Mask2
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(56): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv(7).
+# 
+#         Region: /testbench2/test/myMaskLayer/Mask2
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(57): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv(6).
+# 
+#         Region: /testbench2/test/myMaskLayer/Mask3
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(57): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv(7).
+# 
+#         Region: /testbench2/test/myMaskLayer/Mask3
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(58): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv(6).
+# 
+#         Region: /testbench2/test/myMaskLayer/Mask4
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(58): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv(7).
+# 
+#         Region: /testbench2/test/myMaskLayer/Mask4
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(59): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv(6).
+# 
+#         Region: /testbench2/test/myMaskLayer/Mask5
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(59): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskOnePath.sv(7).
+# 
+#         Region: /testbench2/test/myMaskLayer/Mask5
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(60): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(2).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg1
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(60): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(3).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg1
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(60): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK_out'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(4).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg1
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(60): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT_out'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(5).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg1
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(61): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(2).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg2
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(61): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(3).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg2
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(61): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK_out'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(4).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg2
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(61): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT_out'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(5).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg2
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(62): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(2).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg3
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(62): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(3).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg3
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(62): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK_out'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(4).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg3
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(62): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT_out'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(5).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg3
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(63): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(2).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg4
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(63): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(3).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg4
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(63): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK_out'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(4).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg4
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(63): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT_out'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(5).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg4
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(64): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(2).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg5
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(64): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(3).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg5
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(64): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_BLK_out'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(4).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg5
+# ** Warning: (vsim-3015) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(64): [PCDPC] - Port size (10) does not match connection size (11) for port 'confidence_WHT_out'. The port definition is at: C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ConfidenceReg.sv(5).
+# 
+#         Region: /testbench2/test/myMaskLayer/ConfReg5
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: haich  Hostname: DESKTOP-QSNF6AN  ProcessID: 1412
+# 
+#           Attempting to use alternate WLF file "./wlftx5xq4t".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftx5xq4t
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000 ns
+# ** Warning: (vsim-8315) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(135): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ImageRead.sv(60): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ImageRead.sv(60): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/MaskLayer.sv(135): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/ece385/TRDB_DC2_v2.1_FINALVERSION_UIUPUP/TRDB_DC2_v2.1/DE2/DE2_with_VGA/DE2_CCD/ImageRead.sv(60): No condition is true in the unique/priority if/case statement.
+# 
+add wave -position end  sim:/testbench2/test/myImageRead/cansend
+add wave -position end  sim:/testbench2/test/myImageRead/dataready
+add wave -position end  sim:/testbench2/test/myImageRead/image
+add wave -position end  sim:/testbench2/test/myImageRead/state
+add wave -position end  sim:/testbench2/test/myMaskLayer/eachConfidence_BLK
+add wave -position end  sim:/testbench2/test/myMaskLayer/eachConfidence_WHT
+add wave -position end  sim:/testbench2/test/myMaskLayer/eachConfidence_BLK_out
+add wave -position end  sim:/testbench2/test/myMaskLayer/eachConfidence_WHT_out
+add wave -position end  sim:/testbench2/test/myMaskLayer/start1
+add wave -position end  sim:/testbench2/test/myMaskLayer/start2
+add wave -position end  sim:/testbench2/test/myMaskLayer/start3
+add wave -position end  sim:/testbench2/test/myMaskLayer/start4
+add wave -position end  sim:/testbench2/test/myMaskLayer/start5
+add wave -position end  sim:/testbench2/test/myMaskLayer/done1
+add wave -position end  sim:/testbench2/test/myMaskLayer/done2
+add wave -position end  sim:/testbench2/test/myMaskLayer/done3
+add wave -position end  sim:/testbench2/test/myMaskLayer/done4
+add wave -position end  sim:/testbench2/test/myMaskLayer/done5
+add wave -position end  sim:/testbench2/test/myMaskLayer/WE1
+add wave -position end  sim:/testbench2/test/myMaskLayer/WE2
+add wave -position end  sim:/testbench2/test/myMaskLayer/WE3
+add wave -position end  sim:/testbench2/test/myMaskLayer/WE4
+add wave -position end  sim:/testbench2/test/myMaskLayer/WE5
+run 2000000ns
+run 20000000ns
+# End time: 18:41:47 on Dec 12,2017, Elapsed time: 0:10:30
+# Errors: 0, Warnings: 37

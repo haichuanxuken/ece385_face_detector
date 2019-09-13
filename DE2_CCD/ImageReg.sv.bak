@@ -1,0 +1,27 @@
+module ImageReg ( input logic WE,
+						input logic eachConf,
+						input CLK,
+						input RESET,
+						input CLEAR,
+						output logic [0:44999] image 
+						);
+		
+				logic [15:0]counter;
+		always_ff @ (posedge CLK)
+		begin
+			if(RESET)
+				begin
+				counter<=16'b0;
+				end
+			else if(CLEAR)
+				begin
+				counter<=16'b0;
+			end
+			else if(WE)
+			begin
+			image[counter]<=eachConf;
+			counter<=counter+1;
+			end
+		end
+endmodule 
+// ImageReg myImageArray(.WE(loadConf), .eachConf(blackorwhite), .CLK(pixclk), .RESET(RESET), .CLEAR(clear), .image(image));
